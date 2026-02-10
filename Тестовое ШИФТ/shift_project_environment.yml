@@ -1,0 +1,48 @@
+name: project_shift
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+
+  # jupyter
+  - ipython
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - nest-asyncio
+
+  # core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+
+  # visualization
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # data / parsing
+  - requests
+  - beautifulsoup4
+  - nltk
+  - regex
+
+  # database
+  - sqlalchemy
+  - psycopg2
+
+  # ML
+  - catboost
+  - lightgbm
+  - xgboost
+  - shap
+
+  # utils
+  - tqdm
+
+  - pip
